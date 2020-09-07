@@ -1,0 +1,45 @@
+body {
+  background-image: url(img/bg-1.jpg);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  border: 2px solid #fff;
+  width: 550px;
+  height: 400px;
+  margin-top: 5rem;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  color: #231f20;
+  font-size: 6rem;
+}
+
+#lower,
+#add {
+  padding: 0.5rem;
+  width: 150px;
+  color: #fff;
+  background: #0e2f44;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+#lower:hover,
+#add:hover {
+  background: #6897bb;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
