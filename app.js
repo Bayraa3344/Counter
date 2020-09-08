@@ -21,3 +21,7 @@ function minus() {
   }
   console.log(num);
 }
+
+function goBack() {
+  window.history.back();
+}

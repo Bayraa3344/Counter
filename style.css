@@ -2,7 +2,7 @@ body {
   background-image: url(img/bg-1.jpg);
   height: 100vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
 .container {
@@ -10,6 +10,7 @@ body {
   width: 550px;
   height: 400px;
   margin-top: 5rem;
+  margin-left: 23rem;
 }
 
 h1 {
@@ -42,4 +43,14 @@ h2 {
 .buttons {
   display: flex;
   justify-content: space-around;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-2 {
+  width: 150px;
+  height: 60px;
 }
